@@ -10,6 +10,65 @@
     <hr/>
     <div id="display-element"></div>
     <button onclick="displayDate()">Click Me</button>
+    </hr>
+
+    <h2>Number to String</h2>
+    <div id="number"></div>
+    <label for="num-to-str">Enter a number</label>
+    <input type="number" name="num-to-str" id="num-to-str">
+    <button onclick="numToString()">Click Me</button>
     <hr/>
+
+    <h2>String to Number</h2>
+    <div id="results"></div>
+    <label for="str-to-num">Enter a string</label>
+    <input type="text" name="str-to-num" id="str-to-num">
+    <button onclick="stringToNum()">Click Me</button>
+    </hr>
+
+    <h2 id="practice">Typeof Practice</h2>
+    <button onclick="findTypeOf()">Click Me</button>
+   </hr>
+
+    <h2>Add Two Numbers</h2>
+    <label for="num1">Enter first number</label>
+    <input type="number" name="num1" id="num1">
+    <label for="num2">Enter second number</label>
+    <input type="number" name="num2" id="num2">
+    <button onclick="addTwoNumbers()">Click Me</button>
+    <div id="sum-of-numbers"></div>
+    
+    <hr>
+    <h2>Are Both Numbers Greater Than 50?</h2>
+    <label for="num3">Enter frist number</label>
+    <input type="number" name="num3" id="num3">
+    <label for="num4">Enter second number</label>
+    <input type="number" name="num4" id="num4">
+    <button onclick="bothTrue()">Click Me</button>
+    <div id="greater-than-fifty"></div>
+    
+    <hr>
+    <h2>Do You Need an Umbrella?</h2>
+    <label for="umbrella">Is it Raining?</label>
+    <input type="radio" name="umbrella" id="umbrella-yes" value="yes">Yes</input>
+    <input type="radio" name="umbrella" id="umbrella-no" value="no">No</input>
+    <button onclick="oneTrue()">Click Me</button>
+    <div id="umbrella-results"></div>
+
+    <h2>Can You Atttend Class?</h2>
+    <label for="power">Do you have power?</label>
+    <input type="radio" name="power" id="power-yes" value="yes">Yes</input>
+    <input type="radio" name="power" id="power-no" value="no">No</input>
+    <br>
+    <label for="wifi">Do you have Wifi?</label>
+    <input type="radio" name="wifi" id="wifi-yes" value="yes">Yes</input>
+    <input type="radio" name="wifi" id="wifi-no" value="no">No</input>
+    <br>
+    <button onclick="bothFalse()">Click Me</button>
+    <div id="power-results"></div>
+
+
+
+
   </body>
 </html>
